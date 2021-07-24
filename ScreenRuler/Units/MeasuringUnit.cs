@@ -9,13 +9,15 @@ namespace ScreenRuler.Units
     {
         [LocalizedDescription("Pixels", typeof(EnumResources))]
         Pixels = 0,
+        [LocalizedDescription("Millimeters", typeof(EnumResources))]
+        Millimeters = 1,
         [LocalizedDescription("Centimeters", typeof(EnumResources))]
-        Centimeters = 1,
+        Centimeters = 2,
         [LocalizedDescription("Inches", typeof(EnumResources))]
-        Inches = 2,
+        Inches = 3,
         [LocalizedDescription("Points", typeof(EnumResources))]
-        Points = 3,
+        Points = 4,
         [LocalizedDescription("Percent", typeof(EnumResources))]
-        Percent = 4
+        Percent = 5
     }
 }

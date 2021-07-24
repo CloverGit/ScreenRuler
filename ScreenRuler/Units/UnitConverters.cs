@@ -107,6 +107,8 @@ namespace ScreenRuler.Units
                     return (v, _, dpi) => v * dpi;
                 case MeasuringUnit.Points:
                     return (v, _, dpi) => v / 72.0f * dpi;
+                case MeasuringUnit.Millimeters:
+                    return (v, _, dpi) => v / 25.4f * dpi;
                 case MeasuringUnit.Centimeters:
                     return (v, _, dpi) => v / 2.54f * dpi;
                 case MeasuringUnit.Percent:
@@ -127,6 +129,8 @@ namespace ScreenRuler.Units
                     return (v, _, dpi) => v / dpi;
                 case MeasuringUnit.Points:
                     return (v, _, dpi) => v * 72.0f / dpi;
+                case MeasuringUnit.Millimeters:
+                    return (v, _, dpi) => v * 25.4f / dpi;
                 case MeasuringUnit.Centimeters:
                     return (v, _, dpi) => v * 2.54f / dpi;
                 case MeasuringUnit.Percent:
@@ -139,6 +143,7 @@ namespace ScreenRuler.Units
         public static Dictionary<MeasuringUnit, string> UnitStrings = new Dictionary<MeasuringUnit, string>()
         {
             {MeasuringUnit.Pixels, "px"},
+            {MeasuringUnit.Millimeters, "mm"},
             {MeasuringUnit.Centimeters, "cm"},
             {MeasuringUnit.Inches, "in"},
             {MeasuringUnit.Points, "pt"},

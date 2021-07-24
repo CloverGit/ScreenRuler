@@ -141,4 +141,7 @@
   <data name="HypotenuseMode_None" xml:space="preserve">
     <value>隐藏</value>
   </data>
+  <data name="Millimeters" xml:space="preserve">
+    <value>毫米</value>
+  </data>
 </root>

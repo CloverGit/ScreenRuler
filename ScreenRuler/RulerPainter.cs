@@ -38,6 +38,7 @@ namespace ScreenRuler
         {
             {MeasuringUnit.Pixels, new UnitScale { StepSize=5, MTickSteps=2, BTickSteps=10 } },
             {MeasuringUnit.Inches, new UnitScale { StepSize=0.0625f, MTickSteps=4, BTickSteps=16 } },
+            {MeasuringUnit.Millimeters, new UnitScale { StepSize=1f, MTickSteps=10, BTickSteps=20 } },
             {MeasuringUnit.Centimeters, new UnitScale { StepSize=0.1f, MTickSteps=5, BTickSteps=10 } },
             {MeasuringUnit.Points, new UnitScale { StepSize=5, MTickSteps=2, BTickSteps=10 } },
             {MeasuringUnit.Percent, new UnitScale { StepSize=0.5f, MTickSteps=2, BTickSteps=10 } },

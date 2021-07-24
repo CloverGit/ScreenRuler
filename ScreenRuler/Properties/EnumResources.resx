@@ -141,4 +141,7 @@
   <data name="HypotenuseMode_Moving" xml:space="preserve">
     <value>At Cursor Position</value>
   </data>
+  <data name="Millimeters" xml:space="preserve">
+    <value>Millimeters</value>
+  </data>
 </root>

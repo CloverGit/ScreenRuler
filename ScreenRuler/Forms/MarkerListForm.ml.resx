@@ -159,9 +159,11 @@
   <data name="conDelete.Size" type="System.Drawing.Size, System.Drawing">
     <value>178, 22</value>
   </data>
+  <!--
   <data name="conDelete.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Del</value>
   </data>
+  -->
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAcAUFAAAAEACADoIAAAdgAAAICAAAABAAgAKEwAAF4hAABAQAAAAQAIACgWAACGbQAAMDAAAAEA
